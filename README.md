@@ -1,4 +1,4 @@
-Create a Chart on Vue.js using Vue-Chartkick with Realtime Rata from Firebase
+Create a Chart on Vue.js 3 using Vue-Chartkick with Realtime Rata from Firebase
 ==========
 
 Vue-Chartkick Quick Start 
@@ -18,3 +18,4 @@ Firebase Realtime Database setup
 6. Create some data in the `Data` section and edit the `Rules` according to the needs. 
 
 [Getting started with Firebase](https://firebase.google.com/)"# VueChart-Firebase" 
+"# VueChart-Firebase" 
