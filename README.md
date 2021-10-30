@@ -1,19 +1,20 @@
-# chart
+Create a Chart on Vue.js using Vue-Chartkick with Realtime Rata from Firebase
+==========
 
-## Project setup
-```
-npm install
-```
+Vue-Chartkick Quick Start 
+----------
+1. Install vue-chartkick chart.js on the vue project **terminal**.
+2. Add import and use(VueChartkick) to `main.js`.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[Getting started with vue-chartkick](https://chartkick.com/vue)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Firebase Realtime Database setup
+----------
+1. Get started with Firebase.
+2. Create a new project and do the creation process.
+3. Do the SDK Setup and Configuration.
+4. Add the import function, firebase configuration and initializer to `utl/firebase.js`.
+5. Create Realtime Database.
+6. Create some data in the `Data` section and edit the `Rules` according to the needs. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Getting started with Firebase](https://firebase.google.com/)
