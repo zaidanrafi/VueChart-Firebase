@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { onMounted, reactive } from '@vue/runtime-core'
+import { reactive } from '@vue/runtime-core'
 import 'chartkick/chart.js'
 import { productCollection } from '../utl/firebase'
 
@@ -24,10 +24,10 @@ export default {
       productData: {},
     });
 
-    onMounted(async()=>{
+    setInterval(async()=>{
       let productDataSet = await productCollection.once("value");
       state.productData = productDataSet.val();
-    })
+    }, 500)
 
     return { state };
   }
